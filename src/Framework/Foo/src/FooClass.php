@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chronhub\Core\Framework\Foo\src;
+namespace Chronhub\Bar;
 
 final class FooClass
 {
