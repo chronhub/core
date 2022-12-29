@@ -33,6 +33,20 @@
       "Chronhub\\Core\\Tests\\": "tests"
     }
   },
+  "replace": {
+    "chronhub/foo": "self.version",
+    "chronhub/bar": "self.version"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/chronhub/foo"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/chronhub/bar"
+    }
+  ],
   "scripts": {
     "test": "vendor/bin/phpunit",
     "pint": "vendor/bin/pint"
