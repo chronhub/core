@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Chronhub\\Core\\": "src"
+      "Core\\": "src/Framework/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Chronhub\\Core\\Tests\\": "tests"
+      "Core\\Tests\\": "tests"
     }
   },
   "replace": {

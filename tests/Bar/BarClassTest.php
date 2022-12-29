@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Chronhub\Core\Tests\Bar;
+namespace Core\Tests\Bar;
 
-use Chronhub\Core\Tests\UnitTest;
+use PHPUnit\Framework\TestCase;
 
-final class BarClassTest extends UnitTest
+final class BarClassTest extends TestCase
 {
-    // @test
+    /**
+     * @test
+     */
     public function it_assert_true(): void
     {
         $this->assertTrue(true);

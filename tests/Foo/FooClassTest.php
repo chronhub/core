@@ -2,13 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Chronhub\Core\Tests\Foo;
+namespace Core\Tests\Foo;
 
-use Chronhub\Core\Tests\UnitTest;
+use PHPUnit\Framework\TestCase;
 
-final class FooClassTest extends UnitTest
+final class FooClassTest extends TestCase
 {
-    // @test
+    /**
+     * @test
+     */
     public function it_assert_true(): void
     {
         $this->assertTrue(true);

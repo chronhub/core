@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Chronhub\\Bar\\": "src"
+      "Core\\Bar\\": ""
     }
   },
   "config": {
