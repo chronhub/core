@@ -1,0 +1,26 @@
+{
+  "name": "chronhub/foo",
+  "description": "foo comp",
+  "keywords": [
+    "foo"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "steph bug",
+      "email": "chronhubgit@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chronhub\\Foo\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}

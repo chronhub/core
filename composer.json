@@ -2,7 +2,7 @@
   "name": "chronhub/core",
   "description": "core",
   "keywords": [
-    "stream"
+    "core"
   ],
   "license": "MIT",
   "authors": [
@@ -12,15 +12,15 @@
     }
   ],
   "require": {
-    "php": "^8.1"
+    "php": "^8.1",
+    "illuminate/contracts": "9.x"
   },
   "require-dev": {
-    "illuminate/contracts": "9.x",
-    "laravel/pint": "^0.2",
+    "phpunit/phpunit": "^9.5",
     "nunomaduro/larastan": "^2.1",
     "jangregor/phpstan-prophecy": "dev-master",
     "phpspec/prophecy-phpunit": "dev-master",
-    "phpunit/phpunit": "^9.5",
+    "laravel/pint": "^0.2",
     "roave/security-advisories": "dev-latest"
   },
   "autoload": {
